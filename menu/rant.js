@@ -29,7 +29,7 @@ function manageMenu() {
         if (index !== -1) {
             menu.splice(index, 1)
             localStorage.setItem('menu', JSON.stringify(menu))
-            alert("Xoa thanh cong")
+            alert("Xoa thanh cong, oke")
         }
         
     }
